@@ -21,7 +21,7 @@ Siapkan tiga file CSV berikut:
    - `cards_data.csv`
    - `transactions_data.csv`
 
----
+----
 
 ## 🧭 STEP 1 – CREATE TABLES (Raw Import, PK, FK)
 
@@ -41,7 +41,7 @@ Membuat struktur awal dari 3 tabel utama dan mendefinisikan relasi antar entitas
   - `transactions_data.card_id` → `cards_data.card_id`
 - Import file-file csv ke dalam masing-masing tabel yang sudah dibuat.
 
----
+----
 
 ## 🧹 STEP 2 – CLEANING / PREPROCESSING
 
@@ -54,6 +54,8 @@ Membersihkan data mentah agar siap digunakan untuk analisis lanjutan.
 3. **Isi lokasi merchant kosong** (`merchant_city`, `merchant_state`, `zip`) dengan `'ONLINE'` karena transaksi bersifat online.
 4. **Konversi kolom**  yang sudah di hapus simbol ke tipe data `NUMERIC` untuk perhitungan yang lebih akurat.
 5. **Validasi hasil pembersihan** dengan `SELECT` dan `COUNT()`.
+
+----
 
 ## 📊 STEP 3 – DISTRIBUSI DATA (`users_data`, `cards_data`, `transactions_data`)
 
@@ -141,6 +143,8 @@ Melakukan analisis eksplorasi data (exploratory data analysis) untuk memahami se
    - Top 5 jenis error berdasarkan:
      - Jumlah transaksi
      - Total amount yang terdampak
+
+----
 
 ## ❌ STEP 4 – FILTERING DATA (`transactions_data_filter`)
 
