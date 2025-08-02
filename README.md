@@ -1,20 +1,20 @@
 # 📊 S.C.A.N. Your Customer (Segmentation, Consumption, Anomalies, and Next Steps)
 
-S.C.A.N Your Customer adalah kerangka analisis yang mencakup empat pilar utama: Segmentation, Consumption, Anomalies, dan Next Steps. Pendekatan ini membantu memahami karakteristik dan perilaku pelanggan (Segmentasi & Consumption), mendeteksi potensi risiko atau fraud (Anomalies), serta menyusun strategi bisnis yang tepat seperti retensi, promosi, dan mitigasi risiko (Next Steps). S.C.A.N. bertujuan untuk mengenal pelanggan secara menyeluruh dan meningkatkan kualitas pengambilan keputusan berbasis data
+S.C.A.N Your Customer adalah kerangka analisis yang mencakup empat pilar utama: Segmentation, Consumption, Anomalies, dan Next Steps. Pendekatan ini membantu memahami karakteristik dan perilaku pelanggan (Segmentasi & Consumption), mendeteksi potensi risiko atau fraud (Anomalies), serta menyusun strategi bisnis yang tepat seperti retensi, promosi, dan mitigasi risiko (Next Steps). S.C.A.N. bertujuan untuk mengenal pelanggan secara menyeluruh dan meningkatkan kualitas pengambilan keputusan berbasis data.
 
 Dokumentasi ini menjelaskan tahapan pembuatan dan pembersihan data dalam proyek analisis kartu dan transaksi pelanggan. Semua skrip ditulis dalam SQL dan dirancang untuk dijalankan di pgAdmin 4.
 
 Daftar Isi: 
-   - 🧭 STEP 1 – CREATE TABLES (Raw Import, PK, FK)      = Membuat struktur awal dari 3 tabel utama`
-   - 🧹 STEP 2 – CLEANING / PREPROCESSING                = Membersihkan data mentah
-   - 📊 STEP 3 – DISTRIBUSI DATA                         = Melakukan analisis eksplorasi data basic dari masing2 tabel
-   - ❌ STEP 4 – FILTERING DATA                          = Memfilter data transaksi yang error dan membuat tabel baru yang bersih
-   - 🔍 STEP 5 – ANALISIS DATA: SEGMENTAS                = Melakukan segmentasi dan klasifikasi pelanggan
-   - 💰 STEP 6 – ANALISIS DATA: CONSUMPTION              = Mengevaluasi pola penggunaan kartu dan perilaku transaksi pelanggan
-   - ⚠️ STEP 7 – ANALISIS DATA: ANOMALIES                = Melakukan analisis mendalam untuk mengidentifikasi anomali
-   - 🥇 STEP 8 – ANALISIS DATA: NEXTS STEP (CRV Score)   = Memetakan customer berdasarkan potensi nilai dan tingkat risiko
-   - 🛒 STEP 9 – ANALISIS DATA: NEXTS STEP (MCC & Merch) = Menganalisis performa merchant dan jenis transaksi
-   - 📌
+   - **🧭 STEP 1 – CREATE TABLES (Raw Import, PK, FK)**      = Membuat struktur awal dari 3 tabel utama`
+   - **🧹 STEP 2 – CLEANING / PREPROCESSING**                = Membersihkan data mentah
+   - **📊 STEP 3 – DISTRIBUSI DATA**                         = Melakukan analisis eksplorasi data basic dari masing2 tabel
+   - **❌ STEP 4 – FILTERING DATA**                          = Memfilter data transaksi yang error dan membuat tabel baru yang bersih
+   - **🔍 STEP 5 – ANALISIS DATA: SEGMENTAS**                = Melakukan segmentasi dan klasifikasi pelanggan
+   - **💰 STEP 6 – ANALISIS DATA: CONSUMPTION**              = Mengevaluasi pola penggunaan kartu dan perilaku transaksi pelanggan
+   - **⚠️ STEP 7 – ANALISIS DATA: ANOMALIES**                = Melakukan analisis mendalam untuk mengidentifikasi anomali
+   - **🥇 STEP 8 – ANALISIS DATA: NEXTS STEP (CRV Score)**   = Memetakan customer berdasarkan potensi nilai dan tingkat risiko
+   - **🛒 STEP 9 – ANALISIS DATA: NEXTS STEP (MCC & Merch)** = Menganalisis performa merchant dan jenis transaksi (MCC)
+   - **📌
 
 
 Siapkan tiga file CSV berikut:
