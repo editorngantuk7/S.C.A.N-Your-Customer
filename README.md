@@ -1,6 +1,6 @@
 # 📊 S.C.A.N. Your Customer (Segmentation, Consumption, Anomalies, and Next Steps)
 
-S.C.A.N Your Customer adalah kerangka analisis yang mencakup empat pilar utama: Segmentation, Consumption, Anomalies, dan Next Steps. Pendekatan ini membantu memahami karakteristik dan perilaku pelanggan (Segmentasi & Consumption), mendeteksi potensi risiko atau fraud (Anomalies), serta menyusun strategi bisnis yang tepat seperti retensi, promosi, dan mitigasi risiko (Next Steps). Tujuannya adalah untuk mengenal pelanggan secara menyeluruh dan meningkatkan kualitas pengambilan keputusan berbasis data
+S.C.A.N Your Customer adalah kerangka analisis yang mencakup empat pilar utama: Segmentation, Consumption, Anomalies, dan Next Steps. Pendekatan ini membantu memahami karakteristik dan perilaku pelanggan (Segmentasi & Consumption), mendeteksi potensi risiko atau fraud (Anomalies), serta menyusun strategi bisnis yang tepat seperti retensi, promosi, dan mitigasi risiko (Next Steps). S.C.A.N. bertujuan untuk mengenal pelanggan secara menyeluruh dan meningkatkan kualitas pengambilan keputusan berbasis data
 
 Dokumentasi ini menjelaskan tahapan pembuatan dan pembersihan data dalam proyek analisis kartu dan transaksi pelanggan. Semua skrip ditulis dalam SQL dan dirancang untuk dijalankan di pgAdmin 4.
 
