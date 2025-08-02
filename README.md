@@ -2,8 +2,8 @@
 
 Dokumentasi ini menjelaskan tahapan pembuatan dan pembersihan data dalam proyek analisis kartu dan transaksi pelanggan. Semua skrip ditulis dalam SQL dan dirancang untuk dijalankan di pgAdmin 4.
 
-Daftar Isi
-    - 🧭 STEP 1 – CREATE TABLES (Raw Import, PK, FK)      = Membuat struktur awal dari 3 tabel utama
+Daftar Isi: 
+    - `🧭 STEP 1 – CREATE TABLES (Raw Import, PK, FK)      = Membuat struktur awal dari 3 tabel utama`
     - 🧹 STEP 2 – CLEANING / PREPROCESSING                = Membersihkan data mentah
     - 📊 STEP 3 – DISTRIBUSI DATA                         = Melakukan analisis eksplorasi data basic dari masing2 tabel
     - ❌ STEP 4 – FILTERING DATA                          = Memfilter data transaksi yang error dan membuat tabel baru yang bersih
@@ -14,7 +14,6 @@ Daftar Isi
     - 🛒 STEP 9 – ANALISIS DATA: NEXTS STEP (MCC & Merch) = Menganalisis performa merchant dan jenis transaksi (MCC)
     - 📌
 
----
 
 Siapkan tiga file CSV berikut:
    - `users_data.csv`
@@ -22,6 +21,7 @@ Siapkan tiga file CSV berikut:
    - `transactions_data.csv`
 
 ----
+
 
 ## 🧭 STEP 1 – CREATE TABLES (Raw Import, PK, FK)
 
@@ -43,6 +43,7 @@ Membuat struktur awal dari 3 tabel utama dan mendefinisikan relasi antar entitas
 
 ----
 
+
 ## 🧹 STEP 2 – CLEANING / PREPROCESSING
 
 **🎯 Tujuan:**  
@@ -56,6 +57,7 @@ Membersihkan data mentah agar siap digunakan untuk analisis lanjutan.
 5. **Validasi hasil pembersihan** dengan `SELECT` dan `COUNT()`.
 
 ----
+
 
 ## 📊 STEP 3 – DISTRIBUSI DATA (`users_data`, `cards_data`, `transactions_data`)
 
@@ -146,6 +148,7 @@ Melakukan analisis eksplorasi data (exploratory data analysis) untuk memahami se
 
 ----
 
+
 ## ❌ STEP 4 – FILTERING DATA (`transactions_data_filter`)
 
 **🎯 Tujuan:**  
@@ -154,6 +157,9 @@ Memfilter data transaksi untuk menghilangkan baris-baris error dan menghasilkan 
 **Langkah-langkah:**
 1. Membuat tabel `transactions_data_filter` dari `transactions_data` dengan hanya memilih baris tanpa nilai error.
 2. Kemudian menghitung total transaksi bersih dan total nominalnya (`amount`) untuk melihat perubahannya.
+
+----
+
 
 ## 🔍 STEP 5 – ANALISIS DATA: SEGMENTASI 
 
@@ -257,7 +263,8 @@ Melakukan segmentasi dan klasifikasi pelanggan berdasarkan umur, perilaku transa
    - Hitung jumlah pelanggan potensial pada setiap segmen:
      - Apakah mereka lebih banyak di C1, C2, C3, atau C4?
 
----
+----
+
 
 ## 💰 STEP 6 – ANALISIS DATA: CONSUMPTION
 
@@ -390,6 +397,9 @@ Mengevaluasi pola penggunaan kartu dan perilaku transaksi pelanggan untuk mengid
 16. **Jumlah Pelanggan Tidak Aktif (≥ 1 Tahun)**
     - Pelanggan yang tidak memiliki transaksi sejak sebelum `2018-10-31`.
 
+----
+
+
 ## ⚠️ STEP 7 – ANALISIS DATA: ANOMALIES
 
 **Tabel digunakan:** `cards_data`, `transactions_data`
@@ -477,7 +487,8 @@ Melakukan analisis mendalam untuk mengidentifikasi anomali penggunaan kartu dan 
    - Berisi: `client_id`, `card_id`, score per indikator, `fraud_score`, dan `fraud_category`  
    - Tabel ini bisa digunakan untuk investigasi lanjutan oleh tim anti-fraud
 
----
+----
+
 
 ## 🥇 STEP 8 – ANALISIS DATA: NEXTS STEP (CRV Score)
 
@@ -517,7 +528,8 @@ Customer Risk & Value Score (CRV Score) menggabungkan dan mengklasifikasikan cus
 - Output Tabel: `crv_score_table`
 - Hitung jumlah dan persentase dari user maupun amount per kategorinya
 
----
+----
+
 
 ## 🛒 STEP 9 – ANALISIS DATA: NEXTS STEP (MCC & MERCHANT ANALYSIS)
 
