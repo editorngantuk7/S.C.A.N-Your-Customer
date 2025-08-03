@@ -223,6 +223,8 @@ Melakukan analisis eksplorasi data (exploratory data analysis) untuk memahami se
 **🎯 Tujuan:**  
 Memfilter data transaksi untuk menghilangkan baris-baris error dan menghasilkan tabel transaksi bersih.
 
+---
+
 ### 💸 Transaksi Setelah Filtering (`transactions_data_filter`)
 
 | Kategori                      | Transaksi   | Total Amount        |
@@ -468,7 +470,7 @@ Mengevaluasi pola penggunaan kartu dan perilaku transaksi pelanggan untuk mengid
 
 ---
 
-### 📉 STEP 7: ANALYSIS DATA – ANOMALIES
+## 📉 STEP 7: ANALYSIS DATA – ANOMALIES
 
 **🎯 Tujuan:**  
 Melakukan analisis mendalam untuk mengidentifikasi anomali penggunaan kartu dan potensi risiko fraud berdasarkan kombinasi data kartu dan transaksi.
@@ -538,7 +540,7 @@ Melakukan analisis mendalam untuk mengidentifikasi anomali penggunaan kartu dan 
 
 ---
 
-### 💎 STEP 8: Customer Risk & Value Score (CRV)
+## 💎 STEP 8: Customer Risk & Value Score (CRV)
 
 **🎯 Tujuan:**  
 Customer Risk & Value Score (CRV Score) menggabungkan dan mengklasifikasikan customer berdasarkan kombinasi 4 dimensi penting: *customer matrix*, *credit score*, *credit utilization*, dan *fraud risk* untuk mengidentifikasi potensi dan risiko customer secara menyeluruh untuk mendukung pengambilan keputusan strategis dengan pendekatan customer berbasis data. 
@@ -556,7 +558,7 @@ Customer Risk & Value Score (CRV Score) menggabungkan dan mengklasifikasikan cus
 
 ---
 
-### 🗺️ STEP 9: Next Steps - Mapping Your Market
+## 🗺️ STEP 9: Next Steps - Mapping Your Market
 
 **🎯 Tujuan:**  
 Menganalisis performa merchant dan jenis transaksi (Merchant Category Code) untuk menemukan konsentrasi transaksi dan peluang partnership strategis.
