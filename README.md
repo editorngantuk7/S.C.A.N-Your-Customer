@@ -20,7 +20,7 @@ Daftar Isi:
 Siapkan tiga file CSV berikut:
    - `users_data.csv`
    - `cards_data.csv`
-   - `transactions_data.csv` (Belum saya upload karena kapasitas file yang terlalu besar)
+   - `transactions_data.csv` (Belum diupload karena kapasitas file yang terlalu besar)
 
 ----
 
