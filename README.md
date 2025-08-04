@@ -14,7 +14,6 @@ Daftar Isi:
    - **⚠️ STEP 7 – ANALISIS DATA: ANOMALIES**                = Melakukan analisis mendalam untuk mengidentifikasi anomali
    - **🥇 STEP 8 – ANALISIS DATA: NEXTS STEP (CRV Score)**   = Memetakan customer berdasarkan potensi nilai dan tingkat risiko
    - **🛒 STEP 9 – ANALISIS DATA: NEXTS STEP (MCC & Merch)** = Menganalisis performa merchant dan jenis transaksi (MCC)
-   - **📌
 
 
 Siapkan tiga file CSV berikut:
